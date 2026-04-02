@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Enhancement Demo</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            height: 100vh;
+
+            background-image: url("https://thumbs.dreamstime.com/b/beautiful-night-sky-shooting-star-peaceful-landscape-lake-anime-background-wallpaper-mountains-326645746.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 8px black;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            width: 320px;
+            padding: 25px;
+            text-align: center;
+
+            /* Rounded corners */
+            border-radius: 20px;
+
+            /* Shadow */
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+
+            /* Glass effect instead of broken image */
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+
+            color: white;
+            font-size: 18px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            background: #ff7eb3;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ff4e8a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🌙 CSS Effects Demo</h1>
+
+    <div class="box">
+        <p>
+            ✔ Rounded Corners <br>
+            ✔ Shadow Effect <br>
+            ✔ Beautiful Background
+        </p>
+
+        <button>Explore</button>
+    </div>
+
+</body>
+</html>
